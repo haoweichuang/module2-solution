@@ -1,0 +1,93 @@
+/** Container body font family and font size **/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+/** Container body font family and font size **/
+
+body {
+    font-family: sans-serif;
+    font-size: 100%;
+  }
+
+h1 {
+    text-align: center;
+}
+
+.mian {
+    width: 95%;
+    border: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding:5px;
+}
+
+
+.section-title {
+    width:40%;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    float:right;
+}
+
+.text {
+    margin:10px;
+   	margin-top:40px;
+   	clear:both;
+}
+
+.section {
+    background-color: #747272;
+    margin:10px;
+    border:2px solid black;
+}
+
+
+#chicken{
+    background-color: #c06c6c;
+    font-weight:bold;
+}
+#beef{
+    background-color: #d94126;
+    color: white;
+    font-weight:bold;
+}
+#sushi{
+    background-color: #e1ca8d;
+    font-weight:bold;
+}
+
+
+
+/** Desktop **/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        background-color: white;
+        width: 33.33%;
+    }
+}
+  
+/** Tablet **/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+        background-color: white;
+}
+    .col-md-6 {
+        width: 50%;
+}
+    .col-md-12 {
+        width: 100%;
+    }
+}
+  
+/** Mobile **/
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        background-color: white;
+        width: 100%;}
+}
